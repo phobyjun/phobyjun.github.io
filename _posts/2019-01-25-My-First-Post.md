@@ -4,10 +4,6 @@ layout: post
 
 title: "My First Post"
 
-date: 2019-01-25
-
-excerpt: "Github 블로그를 통해 블로그 만들기."
-
 tags: [Github, Github Blog, Tech, 깃허브, 깃허브 블로그]
 
 comments: true
@@ -67,7 +63,6 @@ comments: true
 위의 양식은 YAML 머리말이라 불리며, 간단히 말해 게시글의 정보 및 _config.yml에 적힌 양식에 따라 게시글을 작성해준다고 생각한다. 자세한 정보는 Jekyll 가이드를 참고하길!
 
 <center><a href="https://jekyllrb-ko.github.io/docs/home/" class="btn btn-success">Go To Jekyll Docs</a></center>
-
 - - -
 
 <center>내 생애 첫 블로그 게시글 작성 성공!!</center>
