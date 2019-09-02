@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "SILK를 통한 통제 어휘(controlled vocabularies) 할당하기"
 excerpt: "Tutorial on the use of SILK for aligning controlled vocabularies"
 tags: [Silk, Tech, LOD]
