@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Silk - A Link Discovery Framework for the Web of Data"
-date: 2019-07-05
-excerpt: "Summary a paper about Silk"
 tags: [Silk, Tech, LOD]
 comments: true
 ---
 
+# Summary a paper about Silk
 
+<!--more-->
 
 # Silk - A Link Discovery Framework For the Web of Data
 

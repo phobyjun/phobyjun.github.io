@@ -10,7 +10,9 @@ comments: true
 
 ---
 
+Guithub 블로그 만들기.
 
+<!--more-->
 
 ## Make a blog
 
