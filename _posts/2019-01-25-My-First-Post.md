@@ -1,13 +1,9 @@
 ---
-
-layout: post
-
 title: "My First Post"
 
 tags: [Github, Github Blog, Tech, 깃허브, 깃허브 블로그]
 
 comments: true
-
 ---
 
 Guithub 블로그 만들기.
