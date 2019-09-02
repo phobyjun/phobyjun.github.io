@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Silk - A Link Discovery Framework for the Web of Data"
 tags: [Silk, Tech, LOD]
 comments: true

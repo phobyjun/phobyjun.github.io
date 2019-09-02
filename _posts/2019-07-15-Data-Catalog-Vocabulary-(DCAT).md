@@ -1,7 +1,5 @@
 ---
-layout: post
 title: "Data Catalog Vocabulary (DCAT)"
-date: 2019-07-15
 excerpt: "Data Catalog Vocabulary (DCAT)"
 tags: [Silk, Tech, LOD, DCAT, dcat, schema, rdf]
 comments: true
