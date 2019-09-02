@@ -18,27 +18,27 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : 'https://phobyjun.github.io'
+url     : https://phobyjun.github.io
 baseurl : # does not include hostname
-title   : Junseok Yoon
+title   : Junseok Yoon, 윤 준석
 description: > # this means to ignore newlines until "Language & timezone"
 
 
 ## => Language and Timezone
 ##############################
-lang: "kr"
-timezone: '+3733+12658'
+lang: kr
+timezone: Asia/Seoul
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : 'person'
-  name      : 'Junseok Yoon'
-  url       : 'https://phobyjun.github.io'
+  type      : person
+  name      : Junseok Yoon
+  url       : https://phobyjun.github.io
   avatar    : # path or url of avatar image (square)
-  bio       : 'Computer Engineering at Kyunghee Univ, Republic of Korea'
-  email     : 'phobyjun@gmail.com'
+  bio       : Computer Engineering at Kyunghee Univ, Republic of Korea
+  email     : phobyjun@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -48,7 +48,7 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : 'https://github.com/phobyjun'
+  github    : https://github.com/phobyjun
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
