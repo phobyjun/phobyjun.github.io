@@ -257,7 +257,7 @@ Silk is written in Python is run as a batch process on the command line. The fra
 
 #### Figure 3. Silk System Architecture
 
-![Alt text](/assets/img/2019-07-05-Silk-A-Link-Discovery-Framework-For-The-Web-of-Data/silk_system_architecture.bmp)
+![Alt text](/assets/img/2019-07-05-Silk-A-Link-Discovery-Framework-For-the-Web-of-Data/silk_system_architecture.bmp)
 
 Before executing any comparisons, **Silk** Retrieves the **source and target resource lists**. The list of source resources is retrieved directly through a resource lister which queries the respective **SPARQL endpoint** and caches the list on disk for reuse in a later run of Silk. Target resources are first indexed by means of a resource indexer, making them searchable by specific properties or **RDF Path evaluations**.
 
