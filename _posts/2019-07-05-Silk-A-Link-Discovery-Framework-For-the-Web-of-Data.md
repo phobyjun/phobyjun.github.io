@@ -8,8 +8,6 @@ comments: true
 
 <!--more-->
 
-# Silk - A Link Discovery Framework For the Web of Data
-
 ## ABSTRACT
 
 This paper presents the Silk - Link Discovery Framework, a tool for finding relationships between entities within different data sources. Data publishers can use Silk to  set RDF **links from their data sources to other data sources on the Web.** Link conditions may be based on various similarity metrics and can take the graph around entities into account, which is addressed using a **path-based selector language**.

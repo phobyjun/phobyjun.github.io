@@ -5,8 +5,6 @@ tags: [Silk, Tech, LOD, DCAT, dcat, schema, rdf]
 comments: true
 ---
 
-# Data Catalog Vocabulary (DCAT)
-
 ## Abstract
 
 DCAT는 Web상에서 만들어진 데이터 catalog들 사이의 정보 처리 상호 운용(interoperability)를 용이하게 하기 위해 고안된 RDF 어휘이다.
@@ -89,7 +87,7 @@ DCAT는 데이터 catalog들은 표현하기 위한 RDF 어휘이다. DCAT는 �
 
 **Figure 1. Overview of DCAT model, showing the classes of resources that can be members of a Catalog, and the relationship between them.**
 
-![1](../assets/img/2019-07-27-1/1.png)
+![1](/assets/img/2019-07-27-1/1.png)
 
 ### 5.2 RDF considerations
 
