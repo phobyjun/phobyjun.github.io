@@ -5,8 +5,6 @@ tags: [Silk, Tech, LOD]
 comments: true
 ---
 
-# SILK를 통한 통제 어휘(controlled vocabularies) 할당하기
-
 > **This tutorial explains how [SILK](http://silk.wbsg.de/) can be used to discover links between concepts in controlled vocabularies. By way of example, we have used SILK to create a mapping between the [Named Autority Lists](http://publications.europa.eu/mdr/authority/country/index.html)(NALs) of the [Publications Office of the EU](http://publications.europa.eu/) and the MARC list of the [US Library of Congress](http://loc.gov/).**
 
 ## Introduction
@@ -58,23 +56,23 @@ comments: true
 
 프로젝트를 생성하기 위해 **Project** 버튼을 누르고 프로젝트 이름을 입력한다.
 
-![1](../assets/img/2019-07-17-1/1.png)
+![1](/assets/img/2019-07-17-1/1.png)
 
 일단 프로젝트가 생성되면, input file들의 namespace들을 작성한다. 이를 수정하기 위해서는 Countries_alignment 프로젝트의 **Prefixes** 버튼을 누르고 목록을 작성한다.
 
  
 
-![2](../assets/img/2019-07-17-1/2.png)
+![2](/assets/img/2019-07-17-1/2.png)
 
 ## 2. SKOS을 이용한 통제 어휘 가져오기
 
 [SILK](http://silk.wbsg.de/)에서는 source dataset들을 정의하기 위해 파일들이 resource로써 system에 업로드되어야 한다. mapping을 위해 사용될 이 두 파일들을 업로드하기 위해서 **Resources** 버튼을 누른 뒤 두 파일의 **Upload resource** 부분을 모두 입력해야 한다.
 
-![3](../assets/img/2019-07-17-1/3.png)
+![3](/assets/img/2019-07-17-1/3.png)
 
 일단 파일들이 resource로써 정의되고 tools에 업로드되면, mapping을 위해 사용될 data sources들을 작성한다. **Source** 버튼을 누르고 **RDF dump** 탭(LOC_Countries and NAL_Countries previously uploaded as **Resources**)의 resource를 선택한다.
 
-![4](../assets/img/2019-07-17-1/4.png)
+![4](/assets/img/2019-07-17-1/4.png)
 
 [SILK](http://silk.wbsg.de/)는 또한 [SPARQL](http://www.w3.org/TR/rdf-sparql-query/) Endpoint와 [CSV](http://tools.ietf.org/html/rfc4180) Source를 사용할 수 있다.
 
@@ -82,7 +80,7 @@ comments: true
 
 alignment 과정을 준비하기 위해 프로젝트의 연결 과정을 얻고 source와 target을 선택하기 위해 **Task** 버튼을 클릭한다. 이 연결 과정은 링크을 생성하기 위한 [SILK](http://silk.wbsg.de/) engine에 의해 실행될 수 있는 동작을 가능하게 한다.
 
-![5](../assets/img/2019-07-17-1/5.png)
+![5](/assets/img/2019-07-17-1/5.png)
 
 이 과정에서, 프로젝트는 다음의 항목을 포함해야 한다:
 
@@ -90,7 +88,7 @@ alignment 과정을 준비하기 위해 프로젝트의 연결 과정을 얻고 
 - the data sources;
 - the linking task
 
-![6](../assets/img/2019-07-17-1/6.png)
+![6](/assets/img/2019-07-17-1/6.png)
 
 Alignment를 생성하기 위해 linking task 항목의 **Open** 버튼을 클릭하면 **Editor**가 화면에 표시될 것이다. 이는 linkage rule editor interface이다. 이 인터페이스는 사용자가 가시적인 방법으로 rule을 수정하는것을 가능하게 한다.
 
@@ -101,7 +99,7 @@ Alignment를 생성하기 위해 linking task 항목의 **Open** 버튼을 클�
   - And the [SILK](http://silk.wbsg.de/) function components which enable to manipulate the data source: **Transformations**, **Comparators** and **Aggregators**. For each of them a set of functions are available, for instance **Alpha reduce**, **Equality**, etc.
 - 오른쪽 부분은 **editor interface** 부분이다. 이는 사용자가 [SILK](http://silk.wbsg.de/) 구성 요소 부분에서 drag and drop을 통해 path fields나 function들을 사용하게 해 준다.
 
-![7](../assets/img/2019-07-17-1/7.png)
+![7](/assets/img/2019-07-17-1/7.png)
 
 이 tutorial에서는 아래의 것들이 두 어휘들을 연결하기 위한 path이다:
 
@@ -124,7 +122,7 @@ Named Authority List Countries가 다양한 언어로 국가의 이름을 번역
 
 일단 모든 항목들을 drag and drop을 통해 연결하면 결과는 다음 그림과 같을 것이다.
 
-![8](../assets/img/2019-07-17-1/8.png)
+![8](/assets/img/2019-07-17-1/8.png)
 
 이제 자동으로 link를 탐색하기 위한 준비가 되었다.
 
@@ -132,7 +130,7 @@ Named Authority List Countries가 다양한 언어로 국가의 이름을 번역
 
 일단 앞선 작업이 수행된다면, **Start** 버튼과 **Generate Links** 버튼을 클릭함으로써 실행하기 위해 Generate Links 탭을 클릭한다. 
 
-![9](../assets/img/2019-07-17-1/9.png)
+![9](/assets/img/2019-07-17-1/9.png)
 
 일단 링크가 발견되면, 사용자 인터페이스는 새로고침된 후 웹 어플리케이션이 그 작업이 표시되는 곳에서 고안된 일련의 단계들의 자세한 요약이 있는 링크를 자세히 파고들기 위해 제공한다.
 
@@ -144,11 +142,11 @@ Named Authority List Countries가 다양한 언어로 국가의 이름을 번역
 - ![blue](../assets/img/2019-07-17-1/blue.png) 링크가 결정되지 않음을 확인하는 것, 링크극 reference 링크 모음에 포함되지 않을 것이다.
 - ![red](../assets/img/2019-07-17-1/red.png) 링크가 정확하지 않다고 확인하고 확정할 수 있는 것, 링크는 negative reference 링크 모음에 포함될 것이다.
 
-![10](../assets/img/2019-07-17-1/10.png)
+![10](/assets/img/2019-07-17-1/10.png)
 
 결과물이 우리의 예상을 만족했으므로, 모든 링크를 선택한다.
 
-![11](../assets/img/2019-07-17-1/11.png)
+![11](/assets/img/2019-07-17-1/11.png)
 
 이제, mapping의 결과를 가져올 수 있다.
 
@@ -156,11 +154,11 @@ Named Authority List Countries가 다양한 언어로 국가의 이름을 번역
 
 이제 [SILK Workbench](https://www.assembla.com/spaces/silk/wiki/Silk_Workbench)에서 완성된 mapping의 결과를 저장할 output file을 추가해야 한다. output을 만들기 위해서는 **Workspace** 탭을 클릭한 후 tutorial의 초반에 생성된 프로젝트의 **Output** 버튼을 클릭한다. 
 
-![12](../assets/img/2019-07-17-1/12.png)
+![12](/assets/img/2019-07-17-1/12.png)
 
 일단 output이 생성되면, **reference links** 탭에 있는 **linking task** 버튼을 누른다. 이 탭에서, 가져오기 함수(export function)는 유저가 N-Triples 형식으로 mapping을 가져오는 것을 가능하게 한다.  방금 만든 **output**을 선택한다.
 
-![13](../assets/img/2019-07-17-1/13.png)
+![13](/assets/img/2019-07-17-1/13.png)
 
 결과적으로, 215개의 record들이 정확하게 서로 연결된 것을 볼 수 있다. 그러므로 이 tutorial에서 설명되지 않는 다음 단계들은 가까운 연결 또는 연결되지 않는 나라들을 확정짓는 작업이 될 것이다.
 
