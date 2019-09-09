@@ -1,5 +1,5 @@
 ---
-title: "Apache Jen 이클립스(Eclipse) 연동"
+title: "Apache Jena 이클립스(Eclipse) 연동"
 excerpt: "Apache Jena 이클립스(Eclipse) 연동"
 tags: [java, eclipse, jena, jenaApi, ApacheJena]
 comments: true
@@ -46,3 +46,8 @@ Name 입력 - public static void main(String[] args) 항목 체크(나중에 알
 Jena는 2.7.1 버전을 사용했다.
 
 2.7.1 버전은 [이곳](http://archive.apache.org/dist/jena/binaries/apache-jena-2.7.1.zip)에서 다운로드 받을 수 있다.
+
+다운로드 받으면 여러 개의 파일들이 존재하지만, 사진 속 빨간 네모 박스 안의 파일들로만 Java 라이브러리를 만들어 사용할 것이다.
+
+![7.png](/assets/img/2019-08-11-1/7.png)
+
