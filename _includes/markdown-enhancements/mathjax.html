@@ -6,17 +6,9 @@
 {%- assign _mathjax_autoNumber = __return -%}
 
 <script type="text/x-mathjax-config">
-	var _config = { 
-		TeX: {
-      		equationNumbers: {
-        	autoNumber: "AMS"
-      		}
-    	},
-    	tex2jax: {
-    	inlineMath: [ ['$', '$'] ],
-    	displayMath: [ ['$$', '$$'] ],
-    	processEscapes: true,
-  	}
+	var _config = { tex2jax: {
+		inlineMath: [['$','$']],
+		displayMath: [['$$', '$$']],
 	}};
 	{%- if _mathjax_autoNumber == true -%}
 		_config.TeX = { equationNumbers: { autoNumber: "all" } };

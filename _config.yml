@@ -70,7 +70,7 @@ paths:
 ## => Post
 ##############################
 ## excerpt
-excerpt_separator: "\n\n"
+excerpt_separator: <!--more-->
 
 ## license
 license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
@@ -83,7 +83,7 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: true # false (default), true
+mathjax: # false (default), true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid
@@ -181,8 +181,6 @@ analytics:
 markdown    : kramdown
 highlighter : rouge
 permalink   : date
-lsi: false
-incremental: false
 
 exclude:
   - CHANGELOG.md
