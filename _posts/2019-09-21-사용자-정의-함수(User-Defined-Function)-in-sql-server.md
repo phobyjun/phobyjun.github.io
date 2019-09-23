@@ -30,7 +30,7 @@ Scalar UDF는 0 또는 1 이상의 파라미터들을 받아 하나의 값을 �
 
 Scalar Function을 생성할 때 다음의 문법이 사용된다.
 
-```mysql
+```sql
 CREATE FUNCTION function-name (Parameters)
 RETURNS return-type
 AS
@@ -46,7 +46,7 @@ END
 
 실제 함수를 생성하는 예는 다음과 같다.
 
-```mysql
+```sql
 CREATE FUNCTION GetStudent(@Rno INT)
 	RETURNS VARCHAR(50)
 	AS
@@ -57,7 +57,7 @@ END
 
 이 함수를 사용하기 위해 다음의 명령어를 사용한다.
 
-```mysql
+```sql
 PRINT dbo.GetStudent(1)
 ```
 
@@ -75,7 +75,7 @@ Inline Table Valued Function은 SELECT절이어야만 하는 하나의 구문을
 
 Inline Table Valued Function을 생성할 때 다음의 문법이 사용된다.
 
-```mysql
+```sql
 CREATE FUNCTION function-name (Parameters)
 RETURNS return-type
 AS
@@ -84,7 +84,7 @@ RETURN
 
 실제 함수를 사용하는 예는 다음과 같다.
 
-```mysql
+```sql
 CREATE FUNCTION GetAllStudents(@Mark INT)
 RETURNS TABLE
 AS
@@ -94,7 +94,7 @@ RETURNS
 
 이 함수를 사용하기 위해 다음의 명령어를 사용한다.
 
-```mysql
+```sql
 SELECT *FROM GetAllStudents(60)
 ```
 
@@ -108,7 +108,7 @@ Multi-Statement Table Valued Function은 BEGIN-END 블록으로 둘러싸인 2�
 
 Multi-Statement Table Valued Function을 생성할 때 다음의 문법이 사용된다.
 
-```mysql
+```sql
 CREATE FUNCTION function-name (Parameters)
 RETURNS @TableName TABLE
 (Column_1 datatype,
@@ -129,7 +129,7 @@ END
 
 실제 함수를 사용하는 예는 다음과 같다.
 
-```mysql
+```sql
 CREATE FUNCTION GetAvg(@Name varchar(50))
 RETURNS @Marks TABLE
 (Name VARCHAR(50),
@@ -157,7 +157,7 @@ END
 
 이 함수를 사용하기 위해 다음의 명령어를 사용한다.
 
-```mysql
+```sql
 SELECT * FROM GetAvg('Ram')
 ```
 
