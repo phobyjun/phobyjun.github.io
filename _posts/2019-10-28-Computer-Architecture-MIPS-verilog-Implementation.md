@@ -1,5 +1,5 @@
 ---
-title: Computer-Architecture-MIPS-verilog-Implementation
+title: Computer Architecture MIPS verilog Implementation
 excerpt: 컴퓨터구조 MIPS 베릴로그 구현
 tags: [컴퓨터구조, MIPS, Verilog]
 comment: true
